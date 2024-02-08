@@ -72,7 +72,9 @@
 }
 
 /* base */
-
+html{
+  background-color: aqua;
+}
 .no-js:not(html) {
   display: none !important;
 }
@@ -116,7 +118,9 @@ body:has(.section-header .drawer-menu) .announcement-bar-section .page-width {
   padding-left: 3rem;
   padding-right: 3rem;
 }
-
+.header{
+  background-color: rgb(125, 125, 214);
+}
 @media screen and (min-width: 750px) {
   .page-width {
     padding: 0 5rem;
